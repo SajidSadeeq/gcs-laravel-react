@@ -28,7 +28,13 @@ export default function AuthenticatedLayout({ header, children }) {
                                     href={route('dashboard')}
                                     active={route().current('dashboard')}
                                 >
-                                    Dashboard
+                                    Batch Upload
+                                </NavLink>
+                                <NavLink
+                                    href={route('upload-excel')}
+                                    active={route().current('upload-excel')}
+                                >
+                                    Upload Excel
                                 </NavLink>
                             </div>
                         </div>
